@@ -1,0 +1,23 @@
+/* Sayfa genel stilleri */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #282c34;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+/* Başlık */
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+/* Canvas alanı (oyun alanı) */
+canvas {
+    border: 2px solid white;
+}
